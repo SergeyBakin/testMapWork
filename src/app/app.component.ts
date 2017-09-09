@@ -1,4 +1,9 @@
-import { Component } from '@angular/core';
+import  { Component, NgModule, ComponentRef, Injector, ApplicationRef, ComponentFactoryResolver, Injectable, NgZone }  from '@angular/core';
+
+import * as L from 'leaflet';
+import "reflect-metadata";
+import "zone.js/dist/zone";
+import "zone.js/dist/long-stack-trace-zone";
 
 @Component({
   selector: 'app-root',
